@@ -1,0 +1,183 @@
+:root{                      /*Novo metodo de colocar cor*/
+    --azulmarinho: rgba(26,35,50,255);
+    --zulescuro: rgba(20,29,43,255);
+    --verde: rgba(159,239,0,255);
+    --branco: rgba(255,255,255,255);
+}
+
+*{                          /*configurar o padrão do navegador*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*não rompe a "caixa"*/
+}
+
+/*elementos base*/
+
+body{
+    background: var(--azulmarinho);
+    font-family: Stencil Std, fantasy;
+    color: var(--branco)
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;            /*deixar em linha*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--branco);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;     /*tirar linha*/
+    color: var(--branco);
+    margin-right: 15px;
+}
+
+header nav a:hover{            /*animação quando o mouse passar*/
+    color: var(--verde);
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/doctorwho-fundo.jpg');          /*adicionar uma camada escura sobre a tela*/
+    font-family: 'Times New Roman', Times, serif;
+
+    height: 400px;
+    background-size: cover;     /*imagem cobrir tudo*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;        /*deixar no centro*/
+    align-items: flex-start;      /*começa da esquerda*/
+}
+
+.filme-principal .descricao{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    /*margin-top: ;*/
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);      /*colocar cor meio transparente*/
+    border: none;                             /*tirar a borda*/
+    color: var(--branco);
+
+    padding: 15px 30px;                       /*tamanho do botao*/
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;                        /*aparecer a "luvinha"*/
+    transition: .3s ease all;               /*torna suave a animação*/
+}
+
+.botao:hover{                           /*ao passar o mouse*/
+    background-color: var(--verde);
+    color: black; 
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+/*tamanho das imagens*/
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-series{
+    margin-top: 10px;
+}
+
+.carrosel-series img{
+    max-width: 90%;
+    margin-bottom: 5px;
+}
+
+/*nome na imagem*/
+.carrosel-series nav a{
+    text-decoration: none;     /*tirar linha*/
+    color: var(--branco);
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carrosel-series nav a:hover{            /*animação quando o mouse passar*/
+    color: var(--verde);
+}
+
+.item{
+    text-align: center;
+}
+
+.topico{
+    color: var(--verde);
+    font-family: 'Arial Black';
+    font-size: 25px;
+    margin-left: 10px; 
+
+    margin-bottom: 10px;
+}
+
+/*rodapé*/
+
+.item-final{
+    margin-bottom: 20px;        /*criado para da um espaçamento antes do rodapé*/
+}
+
+footer{
+    bottom: 0;
+    background-color: var(--zulescuro);
+    color: white;
+    height: 55px;
+    width: 100%;
+    margin: auto;
+    align-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.footer a{
+    color:white;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.contacts_list{
+    flex-direction: column;
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filme-principal{
+        margin-top: 10px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 190px; 
+    }
+
+    .carrosel-series{
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    footer{
+        flex-direction: column;
+        margin:auto;
+    }
+}
