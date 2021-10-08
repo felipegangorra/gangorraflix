@@ -3,7 +3,7 @@
 Nesse projeto é criado uma interface de navegação baseada na Netflix, contendo as seguintes catégorias: séries, filmes, animes, documentários e doramas.<br>
 Em suma, é uma página em que eu possa compartilhar minhas obras audiovisuais favoritas.
 
-Nesse projeto foi utilizado: HTML, CSS e JavaScript.
+Nesse projeto foi utilizado: HTML, CSS e JavaScript. 
 
 Link🔗: 
 
