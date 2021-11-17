@@ -1,7 +1,7 @@
 # Gangorraflix 💻🖱
 
 Nesse projeto é criado uma página web baseada na interface da Netflix, contendo as seguintes catégorias: séries, filmes, animes, documentários e doramas.<br>
-Em suma, é uma página em que eu possa compartilhar minhas obras audiovisuais favoritas.
+Em suma, é uma página em que eu compartilho minhas obras audiovisuais favoritas.
 
 Nesse projeto foi utilizado: HTML, CSS e JavaScript. 
 
