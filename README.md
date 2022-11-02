@@ -5,6 +5,6 @@ Em suma, é uma página em que eu compartilho minhas obras audiovisuais favorita
 
 Nesse projeto foi utilizado: HTML, CSS e JavaScript. 
 
-Link🔗: [GANGORRAFLIX](https://gangorra.github.io/Gangorraflix/)
+Link🔗: [GANGORRAFLIX](https://gangorra.github.io/gangorraflix/)
 
 ![GANGORRAFLIX](https://cdn.discordapp.com/attachments/868299459543592962/895863721296007188/01.png)
