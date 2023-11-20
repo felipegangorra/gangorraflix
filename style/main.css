@@ -37,6 +37,7 @@ header nav a{
     text-decoration: none;     /*tirar linha*/
     color: var(--branco);
     margin-right: 15px;
+    font-family: 'Arial Black';
 }
 
 header nav a:hover{            /*animação quando o mouse passar*/
